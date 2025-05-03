@@ -3,7 +3,7 @@
 A simple Streamlit app that uses a trained deep learning model to classify images from the CIFAR-10 dataset.  
 You can upload your own image, and the app will predict which class it belongs to (e.g., cat, dog, airplane, etc.).
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-deployment-url.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://image-classification-app-cnn.streamlit.app/)
 
 ---
 
