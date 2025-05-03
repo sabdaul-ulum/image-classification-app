@@ -52,4 +52,4 @@ if uploaded_file:
             st.markdown(f"**{class_name}**")
             st.progress(float(prob))  # konversi ke float Python
         with col2:
-            st.markdown(f"**{percent:.0f}%**")
+            st.markdown(f"**{percent:.2f}%**")
