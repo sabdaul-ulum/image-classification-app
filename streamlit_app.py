@@ -30,7 +30,7 @@ if uploaded_file:
     st.image(image, caption="Gambar Input", use_container_width=True)
 
     # Preprocessing
-    image_resized = image.resize((32, 32))  # CIFAR-10 input size
+    image_resized = image.convert("RGB").resize((32, 32))  # CIFAR-10 input size
     image_array = np.array(image_resized) / 255.0  # Normalisasi
     image_array = np.expand_dims(image_array, axis=0)  # Tambah batch dimensi
 
